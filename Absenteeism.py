@@ -15,7 +15,7 @@ import seaborn as sns
 sns.set(style="white")
 sns.set(style="whitegrid", color_codes=True)
 #load data from .csv file
-data = pd.read_csv("/Users/NickSummers/Desktop/DataScience/Work_Absenteeism/Absenteeism/Absenteeism_at_work.csv")
+data = pd.read_csv("/path/Absenteeism_at_work.csv")
 #see values of variable of interest
 data['Absenteeism time in hours'].unique()
 #set certain values in our analysis to 0 or 1 to perform logistic regression
